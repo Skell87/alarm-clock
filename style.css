@@ -31,34 +31,36 @@ body{
     color: aqua;
 }
 
-/* dropdown hours parent. */
-.hourDropDown{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border: purple;
-   
-    
-}
- 
-.dropdownHrsBtn{
-    background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.dropdowns {
+    /* display: inline-block; */
+    position: relative;
 }
 
-.dropdown-content a{
-    display: none;
-    position:absolute;
-    z-index: 1;
+.Hours {
+    display: inline-block;
 }
 
-.dropdown .content{
+.dropdowns button{
+    background-color: rgb(167, 184, 199);
+    border: none;
+    padding: 10px 15x;
+    cursor: pointer;
+}
+
+.hourContent a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdowns .hourContent{
+    display:none;
+    background-color: red;
     position: absolute;
-    background-color: orange;
-    min-width: 100px;
-    box box-shadow: 2px 2px 5px hsla(0,0,0,0.8);
+    min-width: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541)
+}
+
+.dropdowns:hover .hourContent{
+    display:block;
 }
