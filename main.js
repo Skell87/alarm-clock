@@ -10,5 +10,13 @@ function checkTime(){
     const minute = time.getMinutes();
     const second = time.getSeconds();
     const timeString = `${hour}:${minute}:${second}`;
-    document.getElementsByClassName("clock").textContent =timeString;
+    document.getElementById("clock").textContent = timeString;
 }
+checkTime()
+
+// i now have a function with a working clock. 
+// next task is to get it to update in realtime.
+// just discovered setInterval. this will execute a functon ^^^ at an interval.
+// if time is represented in MS than i need to * by 1000
+
+setInterval(checkTime, 1000)
