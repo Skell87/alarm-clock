@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.clockBoxParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vh;
+}
+
+.clockBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height:25vh;
+    width: 25vh;
+    background-color: aquamarine;
+
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    background-color: blueviolet;
+    color: aqua;
+}
+    
