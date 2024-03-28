@@ -20,3 +20,10 @@ checkTime()
 // if time is represented in MS than i need to * by 1000
 
 setInterval(checkTime, 1000)
+
+// this worked!!!
+
+//next step, i need alarm functionality.
+// i want an input for how long the alarm should work for
+// i wnat a click event. when clicked, input time gets compared against clock
+// when clock = input time, break event, something happens

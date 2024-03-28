@@ -30,4 +30,35 @@ body{
     background-color: blueviolet;
     color: aqua;
 }
+
+/* dropdown hours parent. */
+.hourDropDown{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: purple;
+   
     
+}
+ 
+.dropdownHrsBtn{
+    background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content a{
+    display: none;
+    position:absolute;
+    z-index: 1;
+}
+
+.dropdown .content{
+    position: absolute;
+    background-color: orange;
+    min-width: 100px;
+    box box-shadow: 2px 2px 5px hsla(0,0,0,0.8);
+}
