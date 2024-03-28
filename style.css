@@ -21,6 +21,7 @@ body{
 
 }
 
+/* font needs to be formatted for the clock */
 .clock{
     display: flex;
     justify-content: center;
