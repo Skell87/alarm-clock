@@ -12,37 +12,17 @@
         <div class="clockBoxParent">
             <div class="clockBox">
                 <div id="clock">00:00:00</div>
+                
+                <div class="controls">
+                    <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
+                    <button onclick="setAlarm()" class="button set-alarm">Set Alarm</button>
+                    <button onclick="clearAlarm()" class="button clear-alarm">Clear Alarm.</button>
 
-                <!-- this starts the dropdown menus for hours and minutes -->
-                <div class="dropdowns">
-                    <button class="Hours">Hours</button>
-                        <div class="hourContent">
-                            <a href="">1</a>
-                            <a href="">2</a>
-                            <a href="">3</a>
-                            <a href="">4</a>
-                            <a href="">5</a>
-                            <a href="">6</a>
-                            <a href="">7</a>
-                            <a href="">8</a>
-                            <a href="">9</a>
-                            <a href="">10</a>
-                            <a href="">11</a>
-                            <a href="">12</a>
-
-                        </div>
-                    <button class="Minutes">Minutes</button>
-                    <button class="AmPm">Am/Pm</button>
                 </div>
-                <div class="dropdown-content">
-
                 </div>
             </div>
         </div>    
-
-    
-
-        </div>
+     
         <script src="main.js"></script>
     </body>
 </html>
