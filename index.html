@@ -8,12 +8,21 @@
     </head>
 
     <body>
+        <!-- this is the clock element. -->
         <div class="clockBoxParent">
             <div class="clockBox">
-                <div class="clock">asd</div>
+                <div id="clock">00:00:00</div>
+                
+                <div class="controls">
+                    <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
+                    <button onclick="setAlarm()" class="button set-alarm">Set Alarm</button>
+                    <button onclick="clearAlarm()" class="button clear-alarm">Clear Alarm.</button>
 
+                </div>
+                </div>
             </div>
         </div>    
+     
         <script src="main.js"></script>
     </body>
 </html>
